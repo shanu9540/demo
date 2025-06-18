@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bluestock Fintech</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #e3f2fd, #bbdefb);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .card {
+      background: #ffffff;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+      text-align: center;
+      max-width: 400px;
+      width: 90%;
+    }
+
+    .card h1 {
+      margin-top: 0;
+      color: #0d47a1;
+      font-size: 2.2rem;
+    }
+
+    .card img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      margin: 20px 0;
+    }
+
+    .card p {
+      font-size: 1rem;
+      color: #333;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      margin-top: 15px;
+      font-size: 1rem;
+      color: #fff;
+      background-color: #1976d2;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #0d47a1;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h1>Bluestock Fintech</h1>
+
+    <!-- Replace this src with your actual Bluestock logo or banner -->
+    <img src="https://via.placeholder.com/350x150.png?text=Bluestock+Fintech+Banner" alt="Bluestock Banner">
+
+    <p>Empowering investors with real-time IPO insights. Track, analyze, and compare public offerings through our intelligent web platform.</p>
+
+    <a href="#" class="btn">Explore IPO Dashboard</a>
+  </div>
+
+</body>
+</html>
